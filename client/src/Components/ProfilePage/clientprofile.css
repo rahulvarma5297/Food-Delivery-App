@@ -1,0 +1,264 @@
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 2% 5%;
+    padding: 3% 3%;
+}
+
+._right {
+    width: auto;
+    margin-top: 60px;
+}
+
+._right .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+._left {
+    width: auto;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+._right table,
+._right th,
+._right td {
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    font-size: 30px;
+}
+
+._right th {
+    font-size: 20px;
+}
+
+._right td {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+    text-transform: none;
+}
+
+._left ._img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    border-radius: 100%;
+}
+
+._left ._img img {
+    width: 350px;
+    height: 350px;
+    left: 50%;
+    border-radius: 100%;
+    border: 20px solid rgba(83, 80, 80, 0.202);
+    display: block;
+}
+
+._left ._img .img_content {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.527);
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+._left ._img:hover .img_content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.profile ._left .img_content i {
+    color: whitesmoke;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.btn_profile {
+    margin-top: 6px;
+    /* width: auto; */
+    width: 25rem;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fac102;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn_profile:hover {
+    background: none;
+    border: 2px solid #fac102;
+    color: #fac102;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.modal-bg,
+.pass-modal-bg {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibilty 0s, opacity 0.5s;
+}
+
+.bg-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.pass-modal-bg .edit-form {
+    position: relative;
+    background-color: #fff;
+    height: 55%;
+    width: 40%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-bg .edit-form {
+    position: relative;
+    background-color: #fff;
+    height: 60%;
+    width: 40%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-bg .edit-form span {
+    position: absolute;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-bg .edit-form span:hover {
+    background-color: rgba(255, 0, 0, 0.734);
+    color: #fff;
+}
+
+.modal-bg .edit-form h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.modal-bg .edit-form form {
+    padding: 20px 30px;
+}
+
+.modal-bg .edit-form label {
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+.modal-bg .edit-form input {
+    border: 1px solid rgba(25, 19, 19, 0.764);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.modal-bg .edit-form a {
+    font-size: small;
+    text-decoration: underline;
+}
+
+.pass-modal-bg .edit-form span {
+    position: absolute;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pass-modal-bg .edit-form span:hover {
+    background-color: rgba(255, 0, 0, 0.734);
+    color: #fff;
+}
+
+.pass-modal-bg .edit-form h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pass-modal-bg .edit-form form {
+    padding: 20px 30px;
+}
+
+.pass-modal-bg .edit-form label {
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+.pass-modal-bg .edit-form input {
+    border: 1px solid rgba(25, 19, 19, 0.764);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.pass-modal-bg .edit-form a {
+    font-size: small;
+    text-decoration: underline;
+}

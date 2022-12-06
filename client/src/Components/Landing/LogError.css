@@ -1,0 +1,28 @@
+.log-alert {
+  /* display: none; */
+  height: 45px;
+  width: 100%;
+  background-color: #f63838;
+  position: relative;
+  padding-left: 20px;
+  grid-template-columns: 90% 10%;
+  border-radius: 7px;
+}
+
+.log-alert p {
+  font-size: 13px;
+  color: #fff;
+  text-transform: none;
+  position: absolute;
+  line-height: 45px;
+}
+
+.log-alert span {
+  position: absolute;
+  line-height: 45px;
+  right: 10px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}

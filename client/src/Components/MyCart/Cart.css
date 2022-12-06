@@ -1,0 +1,171 @@
+.btn-more {
+  background-color: Red;
+  height: 40px;
+  width: 290px;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+}
+
+.gap{
+  width: 100px;
+}
+
+.red-color {
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.addtocart {
+  margin-left: 40.5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.item-box img {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cartitems {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.item-class .item-box {
+  height: 100%;
+  margin: 7px 200px 15px 200px;
+  margin-bottom: 4rem;
+  border-radius: 25px;
+  padding: 10px 8px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 7px 7px 7px 7px #1e1e1ea0;
+}
+
+.item-class .item-box:hover {
+  box-shadow: 7px 7px 7px 7px #033747e3;
+}
+
+.cart .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.cart .box-container .box {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  width: 25rem;
+}
+
+.cart .box-container .box img {
+  height: 18rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cart .box-container .box .content {
+  padding: 0.5rem;
+  display: flex;
+}
+
+.cart .box-container .box h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.cart .box-container .box .content h2 {
+  color: var(--orange);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cart .box-container .box .content p {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.add {
+  background-color: yellow;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  color: red;
+  border: none;
+  margin-left: 20%;
+}
+
+
+.cart .btn-plus {
+  background-color: #ffbb00e3;
+  height: 28px;
+  width: 28px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 30%;
+}
+
+.cart .btn-plus:hover {
+  background: none;
+  color: #ffbb00e3;
+  border: 2px solid #ffbb00e3;
+  font-weight: bold;
+}
+
+.cart .btn-minus {
+  background-color: #ffbb00e3;
+  height: 28px;
+  width: 28px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 30%;
+}
+
+.cart .btn-minus:hover {
+  background: none;
+  color: #ffbb00e3;
+  border: 2px solid #ffbb00e3;
+  font-weight: bold;
+}
+
+.address{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+
+.address input{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 10px;
+}
+

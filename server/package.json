@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "json-server --watch db.json --port 3020"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,16 @@
+.loginForm {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm p {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none;
+}

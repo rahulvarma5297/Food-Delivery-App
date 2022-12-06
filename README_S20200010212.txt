@@ -1,0 +1,76 @@
+NAME: RAHUL VARMA
+ROLL NO: S20200010212
+SECTION: 2
+
+Food Delivery React App using JSON
+
+Node Modules are not included please follow the steps till 4 to install the node modules.
+
+Steps to run the project:
+
+1. Download the project.
+2. Open the folder in VS Code.
+
+Note: First start sever and then start client because client is dependent on server for data.
+
+3. Open Terminal change the directory to the server using the below command
+    --> cd .\server\
+    --> npm i
+    --> npm install bootstrap-icons
+    --> npm start
+
+4. Open another terminal and change the directory to the client using the below command
+    --> cd .\client\
+    --> npm i
+    --> npm start
+
+5. Open the browser and type http://localhost:3000/
+    users data is stored in http://localhost:3020/users
+    Food data is stored in http://localhost:3020/data
+
+First Landing page of the application will be shown
+Only some part of the website can be accesed without login
+
+So, Please Login to access the full website
+You Can Create a new account or use the below credentials to login:
+    username: rahul
+    password: 123456
+    Everything is stored in json.
+
+You can see some gallery images in the home page
+You can see the list of food items in the food page
+Serach for some food is also available in food section
+
+For Ordering food you can click on the add button in the food section and it gets added to the cart
+if you want to remove the food item from the cart you can click on the remove button in the cart page
+You can change the quantity of the food item in the cart page and delete the food item from the cart page
+
+Amount is calculated automatically and you can see the total amount in the cart page
+
+By giving the address you can place the order and you can see the order details in the order page
+
+Profile Page is also added for the user to see the details of the user
+Edit Profile and change password is also available in the profile page but not fully functional
+You can logout from the profile page
+
+In Navbar on top right corner you can see the icon there you can see the cart items and you can also see the order details
+My Cart and My Orders.
+
+
+Assignment Requirements:
+a) Implement Router concept in the App
+    Router concept is used for routing the pages in the application and it is implemented in the App.js file.
+b) Fetch the data from some API or database (Must consider the hook concept)
+    API used is JSON
+    Data is fetched from the json file using the axios library.
+    axios.get and axios.post are used to fetch and post the data.
+    axios.put and axios.delete are used to update and delete the data.
+c) Food App must contain sufficient components for demonstration
+    Many components are implemented in the application.
+d) CSS styling must be incorporated for better look
+    CSS is also used for styling the application.
+e) The App should be in user friendly manner
+    App is designed in user friendly manner.
+
+
+Thank You for reading the README file.

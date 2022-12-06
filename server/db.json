@@ -1,0 +1,291 @@
+{
+  "users": [
+    {
+      "username": "rahul",
+      "email": "rahul@gmail.com",
+      "password": "123456",
+      "confirmedPassword": "123456",
+      "cart": [],
+      "orders": [
+        [
+          {
+            "img": "/static/media/corn.8f92996cf53ac99ba914.jpg",
+            "food": "Corn",
+            "price2": "30",
+            "count": 1
+          }
+        ]
+      ],
+      "id": 1
+    },
+    {
+      "username": "charan",
+      "email": "charan@gmail.com",
+      "password": "123456",
+      "confirmedPassword": "123456",
+      "cart": [],
+      "orders": [],
+      "id": 2
+    },
+    {
+      "username": "fake",
+      "email": "fake@gmail.com",
+      "password": "123456",
+      "confirmedPassword": "123456",
+      "cart": [],
+      "orders": [
+        [
+          {
+            "img": "/static/media/chola.c74e8541645e50eabd13.jpg",
+            "food": "Chola",
+            "price2": "40",
+            "count": 1
+          }
+        ]
+      ],
+      "id": 3
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "img": "/static/media/allupakoida.19bb4bd0337caa209c6a.jpg",
+      "food": "Aloo Pakoda",
+      "data": "Aloo pakora is a popular street food snack served not only in Mumbai but in other parts of India as well.",
+      "price1": "25",
+      "price2": "20"
+    },
+    {
+      "id": 2,
+      "img": "/static/media/chola.c74e8541645e50eabd13.jpg",
+      "food": "Chola",
+      "data": "Chola is a popular dish in the Indian subcontinent, especially in the Indian states of Gujarat, Rajasthan, and Goa.",
+      "price1": "50",
+      "price2": "40"
+    },
+    {
+      "id": 3,
+      "img": "/static/media/corn.8f92996cf53ac99ba914.jpg",
+      "food": "Corn",
+      "data": "Corn is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago.",
+      "price1": "40",
+      "price2": "30"
+    },
+    {
+      "id": 4,
+      "img": "/static/media/maggi.d51edea3324ffc85ac3d.jpg",
+      "food": "Maggi",
+      "data": "Maggi is a brand of instant noodles manufactured by Nestlé. It was first introduced in Switzerland in 1948.",
+      "price1": "30",
+      "price2": "25"
+    },
+    {
+      "id": 5,
+      "img": "/static/media/momo.3492bd6a922ef64235a4.jpg",
+      "food": "Momo",
+      "data": "Momos are steamed or fried dumplings with a savoury filling, originating from the Himalayan region.",
+      "price1": "70",
+      "price2": "60"
+    },
+    {
+      "id": 6,
+      "img": "/static/media/nonvegthali.317b9ed5f681ab5e9cd8.jpg",
+      "food": "Non Veg Thali",
+      "data": "A thali is a platter or combination of small bowls, used for serving food in India and Nepal.",
+      "price1": "250",
+      "price2": "240"
+    },
+    {
+      "id": 7,
+      "img": "/static/media/paubhaji.1f1fd3ff5f583291a9b9.jpg",
+      "food": "Pav Bhaji",
+      "data": "Pav Bhaji is a popular fast food dish from Maharashtra, India. It is a thick vegetable curry served with a soft bread roll.",
+      "price1": "60",
+      "price2": "50"
+    },
+    {
+      "id": 8,
+      "img": "/static/media/pizza.beb988c8a812e6be9a20.jpg",
+      "food": "Pizza",
+      "data": "Pizza is a savory dish usually round, flattened base of wheat-based dough topped with cheese and often various other ingredients.",
+      "price1": "100",
+      "price2": "95"
+    },
+    {
+      "id": 9,
+      "img": "/static/media/puri.e7c39709cbba343eb716.jpg",
+      "food": "Puri",
+      "data": "Puri is a deep-fried flatbread from the Indian subcontinent, made from maida flour, and is a common staple in the Indian diet.",
+      "price1": "40",
+      "price2": "35"
+    },
+    {
+      "id": 10,
+      "img": "/static/media/rajmarice.1808a67652826eb3eac2.jpg",
+      "food": "Rajma Rice",
+      "data": "Rajma Rice is a dish made with red kidney beans and rice. It is a popular dish in India and Pakistan, and is also popular in the United States.",
+      "price1": "150",
+      "price2": "140"
+    },
+    {
+      "id": 11,
+      "img": "/static/media/samosa.31e4f81f8a14da5f7799.jpg",
+      "food": "Samosa",
+      "data": "A samosa is a fried or baked pastry with a savoury filling, such as spiced potatoes, onions, peas, lentils, macaroni, noodles or eggs.",
+      "price1": "10",
+      "price2": "8"
+    },
+    {
+      "id": 12,
+      "img": "/static/media/burger.b0e04a6ea6ea328fc09f.png",
+      "food": "Burger",
+      "data": "A hamburger is a sandwich consisting of one or more cooked patties of ground meat placed inside a sliced bread roll or bun.",
+      "price1": "50",
+      "price2": "45"
+    },
+    {
+      "id": 13,
+      "img": "/static/media/rotiwithmeat.50239c69e085a1d30ba4.jpg",
+      "food": "Roti with Meat",
+      "data": "Roti is a flatbread from the Indian subcontinent made from whole-wheat flour. It is a staple food in many regions of the Indian subcontinent.",
+      "price1": "80",
+      "price2": "70"
+    },
+    {
+      "id": 14,
+      "img": "/static/media/sweet.9641a43b567a720ba27c.jpg",
+      "food": "Sweet",
+      "data": "A sweet is a confection that is typically eaten as part of dessert. It is often a sugary food, although some, such as bitter chocolate, are not.",
+      "price1": "20",
+      "price2": "15"
+    },
+    {
+      "id": 15,
+      "img": "/static/media/vegthali.c1f81268d327c321ccf6.jpg",
+      "food": "Veg Thali",
+      "data": "A thali is a platter or combination of small bowls, used for serving food in India and Nepal.",
+      "price1": "200",
+      "price2": "190"
+    },
+    {
+      "id": 16,
+      "img": "/static/media/kfc.f9cabf794431db7d0ba1.jpeg",
+      "food": "KFC",
+      "data": "KFC is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken.",
+      "price1": "150",
+      "price2": "140"
+    },
+    {
+      "id": 17,
+      "img": "/static/media/panipuri.d1cc3a1d6a6c79bd1162.png",
+      "food": "Pani Puri",
+      "data": "Pani puri, golgappa, or puchka is a popular Indian snack. It is a savoury, hollow, deep-fried ball made from a thin, maida-based batter.",
+      "price1": "20",
+      "price2": "15"
+    },
+    {
+      "id": 18,
+      "img": "/static/media/idli.68790fb779dd01fb93e5.png",
+      "food": "Idli",
+      "data": "Idli is a traditional breakfast food in South Indian. It is made by steaming a batter consisting of fermented black lentils and rice.",
+      "price1": "30",
+      "price2": "25"
+    },
+    {
+      "id": 19,
+      "img": "/static/media/alooparatha.8d99cf96c3642fe51a79.png",
+      "food": "Aloo Paratha",
+      "data": "Aloo paratha is a popular Indian flatbread made with whole wheat flour, stuffed with a spiced potato filling.",
+      "price1": "40",
+      "price2": "35"
+    },
+    {
+      "id": 20,
+      "img": "/static/media/upma.7adb775706ef2fe8021c.png",
+      "food": "Upma",
+      "data": "Upma is a South Indian dish made from semolina, rava, or farina. It is a popular breakfast dish in South India.",
+      "price1": "30",
+      "price2": "25"
+    },
+    {
+      "id": 21,
+      "img": "/static/media/masaladosa.a1e88bacfbd83a3c3a7c.png",
+      "food": "Masala Dosa",
+      "data": "Masala dosa is a type of dosa, a fermented crepe made from rice batter and black lentils.",
+      "price1": "50",
+      "price2": "45"
+    },
+    {
+      "id": 22,
+      "img": "/static/media/plaindosa.cecf36fc28cff01bb8e8.png",
+      "food": "Plain Dosa",
+      "data": "Plain dosa is a type of dosa, a fermented crepe made from rice batter and black lentils.",
+      "price1": "40",
+      "price2": "35"
+    },
+    {
+      "id": 23,
+      "img": "/static/media/uttapam.208ef24ac204c263157b.png",
+      "food": "Uttapam",
+      "data": "Uttapam is a South Indian dish made from a fermented batter consisting of lentils and rice.",
+      "price1": "40",
+      "price2": "35"
+    },
+    {
+      "id": 24,
+      "img": "/static/media/chickenfrybiriyani.1714a04c3a75e73e9d5e.png",
+      "food": "Chicken Fry Biriyani",
+      "data": "Chicken biryani is a dish of chicken and rice that has been cooked in a seasoned broth and combined with spices and herbs.",
+      "price1": "200",
+      "price2": "190"
+    },
+    {
+      "id": 25,
+      "img": "/static/media/eggfriedrice.fa11cf218da5dda20337.png",
+      "food": "Egg Fried Rice",
+      "data": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.",
+      "price1": "150",
+      "price2": "140"
+    },
+    {
+      "id": 26,
+      "img": "/static/media/chicken65.61fbc1f330dca0cc3424.png",
+      "food": "Chicken 65",
+      "data": "Chicken 65 is a spicy chicken dish from the Indian subcontinent. It is made by marinating chicken pieces in a mixture of yogurt, spices, and chili powder.",
+      "price1": "150",
+      "price2": "140"
+    },
+    {
+      "id": 27,
+      "img": "/static/media/chickenlollipop.d9deac679ae262ad98b5.png",
+      "food": "Chicken Lolli Pop",
+      "data": "Chicken Lolli Pop is a spicy chicken dish from the Indian subcontinent. It is made by marinating chicken pieces in a mixture of yogurt, spices, and chili powder.",
+      "price1": "150",
+      "price2": "140"
+    },
+    {
+      "id": 28,
+      "img": "/static/media/chickentikk.4d7696c4a12a33687fda.png",
+      "food": "Chicken Tikka",
+      "data": "Chicken tikka is a dish of chunks of chicken marinated in yogurt and spices and then broiled or grilled.",
+      "price1": "150",
+      "price2": "140"
+    },
+    {
+      "id": 29,
+      "img": "/static/media/icecream.2fc8c4a5f0da738095f1.png",
+      "food": "Ice Cream",
+      "data": "Ice cream is a sweetened frozen food, It is usually made from dairy products and often combined with fruits or other ingredients and flavours.",
+      "price1": "50",
+      "price2": "45"
+    },
+    {
+      "id": 30,
+      "img": "/static/media/Quesadilla.ca829c7c94f7d9f76af6.png",
+      "food": "Quesadilla",
+      "data": "A quesadilla is a tortilla-based dish made by grilling or baking a tortilla with cheese and other ingredients in a frying pan.",
+      "price1": "50",
+      "price2": "45"
+    }
+  ]
+}
